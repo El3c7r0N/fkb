@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fanvil Help Center</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #fce4e4;
+    }
+
+    header {
+      background-color: #cc0000;
+      color: white;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    header nav a {
+      color: white;
+      margin-left: 1rem;
+      text-decoration: none;
+    }
+
+    header nav a:nth-child(1) {
+      href: "https://www.fanvil.com/aboutus/2046.html";
+    }
+
+    header nav a:nth-child(2) {
+      href: "https://fanvil.com";
+    }
+
+    .search-section {
+      text-align: center;
+      padding: 3rem 2rem;
+      background: url('lan.png') no-repeat center center;
+      background-size: cover;
+      color: white;
+      height: 50vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .search-section h1 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+
+    .search-section input {
+      width: 60%;
+      padding: 0.75rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .search-section p {
+      margin-top: 1rem;
+      font-size: 1.1rem;
+    }
+
+    .help-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .card img {
+      max-width: 100%;
+      height: 100px;
+      display: block;
+      margin: 0 auto 1rem;
+    }
+
+    .card h3 {
+      color: #cc0000;
+      margin-bottom: 1rem;
+    }
+
+    .card p {
+      color: #555;
+    }
+
+    .video-center, .top-articles {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .video-center {
+      display: flex;
+      gap: 2rem;
+    }
+
+    .video-center .video {
+      flex: 1;
+      background: #ddd;
+      height: 200px;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .video-center .video iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .top-articles ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .top-articles li {
+      margin-bottom: 0.5rem;
+    }
+
+    .top-articles a {
+      color: #cc0000;
+      text-decoration: none;
+    }
+
+    .top-articles a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Fanvil Help Center</div>
+    <nav>
+      <a href="https://www.fanvil.com/aboutus/2046.html">Contact Us</a>
+      <a href="https://fanvil.com">Fanvil Website</a>
+    </nav>
+  </header>
+
+  <section class="search-section">
+    <h1>How can we help?</h1>
+    <input type="text" placeholder="Type your question here">
+    <p>Common topics: <a href="#">How to upgrade devices</a>, <a href="#">Troubleshooting tips</a>, <a href="#">Getting started guides</a></p>
+  </section>
+
+  <section class="help-cards">
+    <div class="card">
+      <h3>Getting Started</h3>
+      <p>Learn how to set up and configure Fanvil products.</p>
+    </div>
+    <div class="card">
+      <img src="Wireless.png" alt="Linkvil Wireless UC">
+      <h3>Linkvil Wireless UC</h3>
+      <p>Explore wireless UC solutions for seamless communication.</p>
+    </div>
+    <div class="card">
+      <img src="Video.png" alt="SIP Video Phones">
+      <h3>SIP Video Phones</h3>
+      <p>Discover advanced video phones for business communication.</p>
+    </div>
+    <div class="card">
+      <img src="sipphones.png" alt="SIP IP Phones">
+      <h3>SIP IP Phones</h3>
+      <p>Reliable IP phones for diverse enterprise needs.</p>
+    </div>
+    <div class="card">
+      <img src="Platform.png" alt="Platforms">
+      <h3>Platforms</h3>
+      <p>Centralized management platforms for Fanvil devices.</p>
+    </div>
+    <div class="card">
+      <img src="Security.png" alt="SIP Security Industry Products">
+      <h3>SIP Security Industry Products</h3>
+      <p>Products designed for secure and reliable communications.</p>
+    </div>
+    <div class="card">
+      <img src="2wire.png" alt="2-Wire Products">
+      <h3>2-Wire Products</h3>
+      <p>Solutions for extending legacy systems with modern capabilities.</p>
+    </div>
+    <div class="card">
+      <img src="Conferencing.png" alt="Business Conferencing">
+      <h3>Business Conferencing</h3>
+      <p>High-quality conferencing solutions for enterprises.</p>
+    </div>
+    <div class="card">
+      <img src="Accessoriespng.png" alt="Accessories">
+      <h3>Accessories</h3>
+      <p>Enhance your Fanvil products with our range of accessories.</p>
+    </div>
+  </section>
+
+  <section class="video-center">
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/MqdFVxQxaE0" allowfullscreen></iframe>
+    </div>
+    <div class="top-articles">
+      <h3>Top Articles</h3>
+      <ul>
+        <li><a href="#">How to upgrade V series via Post Mode</a></li>
+        <li><a href="#">Troubleshoot registration issues</a></li>
+        <li><a href="#">How to add devices to FDMCS</a></li>
+        <li><a href="#">Getting started with FCMS</a></li>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>
